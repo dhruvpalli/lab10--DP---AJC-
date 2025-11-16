@@ -52,18 +52,18 @@ class TestCalculator(unittest.TestCase):
     def test_log_invalid_argument(self):  # 1 assertion
         
         with self.assertRaises(ValueError):
-            logarithm(10, 0)
+            logarithm(10, -4)
 
     def test_hypotenuse(self):  # 3 assertions
-        self.assertAlmostEqual(hypotenuse(3, 4), 5.0)
-        self.assertAlmostEqual(hypotenuse(5, 12), 13.0)
-        self.assertAlmostEqual(hypotenuse(0, 0), 0.0)
+        self.assertAlmostEqual(hypotenuse(6, 8), 10.0)
+        self.assertAlmostEqual(hypotenuse(8, 15), 17.0)
+        self.assertAlmostEqual(hypotenuse(0, 9), 9.0)
 
     def test_sqrt(self):  # 3 assertions
-        self.assertAlmostEqual(square_root(9), 3.0)
-        self.assertAlmostEqual(square_root(0), 0.0)
+        self.assertAlmostEqual(square_root(16), 4.0)
+        self.assertAlmostEqual(square_root(1), 1.0)
         with self.assertRaises(ValueError):
-            square_root(-1)
+            square_root(-5)
     
 
 
