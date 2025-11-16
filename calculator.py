@@ -1,9 +1,15 @@
+#https://github.com/dhruvpalli/lab10--DP---AJC-
+#Partner 1 - Dhruv Palli
+#Partner 2 - Ana Julia Cavaletti
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
+
+
 # First example
 
 import math 
