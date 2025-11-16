@@ -34,11 +34,8 @@ class TestCalculator(unittest.TestCase):
             divide(5, 0)
 
     def test_logarithm(self):  # 3 assertions
-        # log base 10 of 100 = 2
         self.assertAlmostEqual(logarithm(10, 100), 2.0)
-        # log base 2 of 8 = 3
         self.assertAlmostEqual(logarithm(2, 8), 3.0)
-        # log base 4 of 16 = 2
         self.assertAlmostEqual(logarithm(4, 16), 2.0)
 
     def test_log_invalid_base(self):  # 1 assertion
