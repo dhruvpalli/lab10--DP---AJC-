@@ -1,3 +1,7 @@
+#https://github.com/dhruvpalli/lab10--DP---AJC-
+#Partner 1 - Dhruv Palli
+#Partner 2 - Ana Julia Cavaletti
+
 import unittest
 from calculator import *
 
